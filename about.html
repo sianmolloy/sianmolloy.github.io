@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	    <title>Sian Molloy</title>
+	    <link rel="stylesheet" type="text/css" href="app.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			$(function(){
+				$('#header').load('header.html');
+			});
+		</script>
+		<script>
+			$(function(){
+				$('#footer').load('footer.html');
+			});
+		</script>
+  	</head>
+ 	<body>
+  		<div id="header"></div>
+  	<div class="body">
+  		<h1 class="greeting">a little bit about me..</h1>
+  		<p class="intro">I studied computer science at the university of saskatchewan and graduated with a minor in studio art. I'm passionate about making things. Afterall, making things really is the crux of softwre development. Some of my favorite things to make outside of work are keyboards, hats, and visual art.</p>
+  		<div class="gallery">	
+	  		<div class="row">
+	  			<div class="column">
+	  				<img src="resources/imgs/knit_hats.jpg">
+	  				<img src="resources/imgs/office_quote_print.jpg">
+	  			</div>
+	  			<div class="column">
+					<img src="resources/imgs/keyboards.jpg">
+					<img src="resources/imgs/weaving.jpg">
+	  			</div>
+	  		</div>
+  		</div>
+  	</div>
+  	<div id="footer"></div>
+  </body>
+</html>
