@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee&display=swap');
+
+h1 a{
+	color: white;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: "ABeeZee", sans-serif;
+	font-weight: 200;
+	float: left;
+}
+
+body {
+  	background-image: url('resources/imgs/background.png');
+ 	background-position: center;
+  	background-size: cover;
+	color: white;
+	margin: 0;
+	font-family: "ABeeZee", sans-serif;
+	font-weight: 200;
+}
+
+.nav {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header {
+	background: transparent;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav {
+	float:right;
+}
+
+nav ul {
+	margin:  0;
+	padding:  0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 24px;
+
+	position: relative;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 28px;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 0%;
+	background-color: white;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+nav a:hover::before {
+	width: 100%;
+	transition: all ease-in-out 400ms;
+}
+
+.body {
+	display: block;
+	overflow: auto;
+	margin: auto;
+	padding-top:  50px;
+	background-color: rgba(87, 12, 48, 0.4);
+	text-align: center;
+}
+
+.greeting {
+	font-size: 40px;
+}
+
+.intro {
+	font-size: 28px;
+}
+
+.headshot {
+	height: 30%;
+	width: 30%;
+	border-radius: 50%;
+}
+
+
+
